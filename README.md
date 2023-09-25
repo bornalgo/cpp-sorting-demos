@@ -1,6 +1,6 @@
 # cpp-sorting-demos
 
-## _A collection of well-documented C++ sorting algorithm examples, including bubble, counting, insertion, merge, quick, radix, selection, and shell sorts. Explore, learn, and implement essential sorting algorithms in your projects._
+## _Exploring Efficient Sorting Algorithms in C++_
 
 Explore various C++ sorting algorithms, including bubble, counting, insertion, merge, quick, radix, selection, and shell sorts. This repository contains well-documented code examples for each sorting algorithm, making it easy to understand and implement these essential algorithms in your projects. Learn, compare, and improve your sorting algorithm knowledge with this comprehensive collection.
 
@@ -42,22 +42,22 @@ By following these steps, you can easily compile and run the sorting algorithms 
 <details>
   <summary><strong>Bubble Sort</strong></summary>
   
-**Bubble Sort** is a simple comparison-based sorting algorithm that repeatedly steps through the list of elements to be sorted, compares adjacent elements,andswaps them if they are in the wrong order. The pass through the list is repeated until no swaps are needed, which means that the list is sorted.
+**Bubble Sort** is a simple comparison-based sorting algorithm that repeatedly steps through the list of elements to be sorted, compares adjacent elements, and swaps them if they are in the wrong order. The pass through the list is repeated until no swaps are needed, which means that the list is sorted.
 **Time Complexity**:
 - Best Case: O(n) - When the input list is already sorted, and no swaps are required.
 - Worst Case: O(n^2) - When the input list is sorted in reverse order, and each element needs to be compared and swapped in each pass.
 - Average Case: O(n^2) - Typically, bubble sort performs poorly on average.
-Bubble sort is not considered an efficient sorting algorithm, especially for large datasets, due to its quadratic time complexity. There are more efficientsortingalgorithms like Quick Sort, Merge Sort, and Heap Sort that are often preferred for larger datasets.
+Bubble sort is not considered an efficient sorting algorithm, especially for large datasets, due to its quadratic time complexity. There are more efficient sorting algorithms like Quick Sort, Merge Sort, and Heap Sort that are often preferred for larger datasets.
 **Space Complexity**:
 - Bubble sort is an in-place sorting algorithm, which means it doesn't require additional memory to sort the elements. Hence, its space complexity is O(1)indicating that it uses a constant amount of memory for the sorting process.
 **How Bubble Sort Works**:
 1. Start at the beginning of the list.
 2. Compare the first two elements. If the first element is larger than the second, swap them.
 3. Move to the next pair of elements (from the second to the third), and repeat the comparison and swapping process.
-4. Continue this process until you reach the end of the list for the first pass. At the end of the first pass, the largest element will have "bubbled up" tothelast position.
+4. Continue this process until you reach the end of the list for the first pass. At the end of the first pass, the largest element will have "bubbled up" to the last position.
 5. Repeat steps 1-4 for the remaining unsorted portion of the list (excluding the last element, which is already in its correct position after the first pass).
 6. Continue this process until the entire list is sorted.
-Bubble sort gets its name from the way smaller elements "bubble" to the top of the list in each pass. It is a straightforward sorting algorithm but notefficientfor large datasets, making it primarily useful for educational purposes or when dealing with small datasets where simplicity is preferred overefficiency.
+Bubble sort gets its name from the way smaller elements "bubble" to the top of the list in each pass. It is a straightforward sorting algorithm but not efficient for large datasets, making it primarily useful for educational purposes or when dealing with small datasets where simplicity is preferred over efficiency.
 <details>
   <summary>Illustrate Bubble Sort</summary>
 Let's illustrate the Bubble Sort algorithm step by step using a simple example. Consider the following unsorted array:
